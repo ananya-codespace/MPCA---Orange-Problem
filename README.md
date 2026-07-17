@@ -8,9 +8,10 @@ RISC-V is an open-source instruction set architecture (ISA), meaning anyone can 
 RARS (RISC-V Assembler and Runtime Simulator) is a tool used to write, assemble, and run RISC-V assembly programs without needing actual RISC-V hardware. It simulates the registers, memory, and instruction execution, and lets you step through a program to see exactly how each instruction changes register/memory values.
 
 ## Problem A - Military Ration Distribution
-An army records the ration packets distributed over 7 days, given as an array.
+An army records the ration packets distributed over 7 days, given as an array.  
 `Rations = {120, 150, 100, 180, 130, 170, 140}`  
 `N = 7`  
+
 The program calculates:
 - Total ration packets distributed
 - Average ration per day (integer division)
